@@ -1,0 +1,33 @@
+main {
+    background-color: #181616;
+}
+
+footer {
+    background-color: #9f3647;
+
+}
+
+.navbar {
+    background-color: #9f3647;
+}
+
+hr {
+    border: 1px solid #9f3647;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.sectionPrincipal {
+
+    color: white;
+    background: linear-gradient(to right top, #0000008a, #0000008a), url(images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
