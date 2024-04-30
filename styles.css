@@ -1,10 +1,14 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     background-color: #181616;
 }
 
 footer {
     background-color: #9f3647;
-
 }
 
 .navbar {
@@ -30,4 +34,22 @@ hr {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.peliculasAclamadas {
+    white-space: nowrap;
+    /* Evita el retorno automático de línea */
+    overflow-x: auto;
+    /* Agrega scroll horizontal cuando el contenido excede el ancho del contenedor */
+}
+
+.peliculasAclamadas img {
+    max-width: 15vw;
+    /* Establece un tamaño máximo del 100% del contenedor padre */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente para mantener la proporción de la imagen */
+    display: inline-block;
+    /* Permite que las imágenes fluyan horizontalmente */
+    margin-right: 50px;
+    /* Espacio entre cada imagen */
 }
